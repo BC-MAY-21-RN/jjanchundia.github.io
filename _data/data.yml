@@ -1,157 +1,113 @@
-#
-# Tenga en cuenta que al modificar este archivo, el mínimo error en la sintáxis puede generar errores
-#
-
-sidebar:
-  about: False # NO MODIFICAR
-  education: False # NO MODIFICAR
+education: False # NO MODIFICAR
 
   # Profile information
-  name: Jonathan Joel Anchundia Navas # Nombre completo
+  name: My Full Name # Nombre completo
   tagline: React Native Mobile Developer # React Native Mobile Developer ó Ruby on Rails Web Developer Según sea el caso
   avatar: escudo.png # No modificar
 
   # Actualiza tus datos de contacto
-  email: jjanchundia92@gmail.com
-  phone: +593999940455
+  email: name@brightcoders.com
+  phone:
   website: # No agregar http://
-  linkedin: https://www.linkedin.com/in/joel-a-a4289a16b/
-  github: https://github.com/jjanchundia
+  linkedin: brightcoders
+  github: brightcoders
   gitlab:
   bitbucket:
   twitter: '@BrightCoders'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-
+	@@ -27,14 +27,11 @@ sidebar:
   # Actualiza según los idiomas y nieles que tienes. Agrega o Elimina según sea necesario.
   languages:
     - idiom: English
-      level: Basic # Utiliza el resultado de tu examen oficial, o el nivel de acuerdo al modelo Dreyfus
+      level: Fluent # Utiliza el resultado de tu examen oficial, o el nivel de acuerdo al modelo Dreyfus
 
     - idiom: Spanish
       level: Native # Utiliza el resultado de tu examen oficial, o el nivel de acuerdo al modelo Dreyfus
 
+    - idiom: German
+      level: Colloquial
+
   # Registra aquí tus soft skills. Agrega o elimina según sea necesario
   interests:
     - item: Communication
-      link: # dejar en blanco
-
-    - item: Team Work
-      link: # dejar en blanco
-
-    - item: Time Management
-      link: # dejar en blanco
-
-# Registra aquí un resumen de tu perfil
+	@@ -50,68 +47,83 @@ sidebar:
 career-profile:
   title: About Me # NO MODIFICAR
   summary: |
-    Desarrollador Full Stack con +4 años de experiencia en desarrollo web.
-    Amante del código limpio.
-    Soy un apasionado de la ingeniería de software y la innovación tecnológica.
-    Uso múltiples tecnologías y herramientas de desarrollo que incluyen C#, Asp.Net MVC, .NET, JavaScript, Html, Bootstrap, React, Node.JS.
-    Mi desarrollo incluye orden, planificación y buenas prácticas permiten que los proyectos sean escalables y perdurables en el tiempo, brindando un software que puede crecer a medida
-    que la empresa lo requiera y su mantenimiento sea más fácil. 
-    Actualmente estoy buscando perfeccionar mis habilidades con React js, React Native y Node.js con proyectos web/móviles y aumentar mi nivel de inglés. 
-
-
+    Lorem ipsum dolor sit amet, con sectetur adipiscing elit. Proin purus ligula, posuere semper est sed, pretium elementum massa. Duis et orci sed nunc. Maecenas at egestas mi. Nulla id augue a lectus condimentum scelerisque vitae sed dui.
 # Registra aquí tus estudios. Agrega o elimina según sea necesario
 educationcomplete:
-  - degree: Ing. Sistemas
-    university: UTEL Universidad
+  - degree: Applied Scientist full-time at AWS
+    university: Germany
     time: 2020 Oct - current
     details: |
-
-  - degree: Tecnólogo en Sistemas
-    university: Instituto Tecnologico Bolivariano de Tecnologia
-    time: 2015 - 2018
+  - degree: PhD in Computer vision and Machine learning
+    university: Heidelberg University
+    time: 2015 - 2020
     details: |
-      
+      Unsupervised deep learning for automatic behavior analysis
+        - Unsupervised learning
+        - Representaion learning
+        - Automatic Behavior Analysis
+  - degree: Internship (Master Thesis)
+    university: Tobii
+    time: 2014 - 2015
+    details: |
+      Master thesis topic Hand gesture classification by Deep learning using infrared camera 
+        - Deep learning
+        - Hand Gesture
+  - degree: Bachelor Degree
+    university: Politecnico di Torino (Torino, Italy)
+    time: 2009 - 2012
+    details: |
+      Master degree in Computer Engineering
 # Registra aquí tu experiencia. Agrega o elimina según sea necesario
 experiences:
-  - role: Analista - programador
-    time: Apr 2021 - Jan 2022
-    company: Plapasa S.A
-    details: |    
-    *Levantamiento de información previo a desarrollo de software. 
-    *Análisis y Diseño de software. 
-    *Desarrollo de aplicaciones con C#.Net Framework.
-    *Integración de ZPL(Lenguaje de etiquetas) para impresión de etiquetas con C#, Sql Server e impresora ZEBRA.
-    *Creación de Bot en Telegram para envío de mensajes a un grupo por medio del Api(Telegram). 
-    *Consumo de Apis.
-
-    Desarrollo de sistema administrador para página web, tecnologías usadas para dicha implementación:
-    *Laravel 8.
-    *Php 8.
-    *MySql
-    *Laravel-ui-stisla (Plantilla Front-end).
-    *Spatie(Laravel-permission) para roles de usuario.
-
-  - role: Analista Programador de Sistemas
-    time: 2018-2021
-    company: Parque de La Paz S.A
-    details: |      
-      Trabajos de desarrollo de software (ERP) de Parque de la Paz en ASP .NET MVC C#, con motor de base de datos SQL Server y Bootstrap 4.
-      *Análisis, Diseño e implementación del Módulos de caja y otros.
-      *Creación y consumo de API REST con C#. 
-      *Implementación de mejoras de App Mobile de Parque de la paz, realizado en Android con SqlLite y Sql Server Azure. 
-      *Publicación de App en Play Store.
-
-- role: Desarrollador de front-end
-    time: Jul 2020 - Jan 2021
-    company: Hackademymx
-    details: |      
-      *Desarrollador de aplicaciones móviles con React Native.
-      -Creación de app para usuarios-pacientes.
-      -Consumo de apis con axios.
-
-      *Desarrollador frontend con React Js.
-      -Consumo de Apis con axios.
-      -Creación de sistema de dietas.
-      -Dashboard de administrador integrando CoreUI con React Js.
-      
- - role: Desarrollador de front-end
-    time: Sep 2017 - Dec 2018
-    company: Software Factory
-    details: |      
-      Trabajos de desarrollo de software de facturacion electronica en asp .net, con metodologia de n capas,
-      con telerik y bootstrap como framework de desarrollo y diseño, con motor de base de datos PL/SQL, MySql y SQL.
-      *Desarrollo de Sistema de Facturación Electronica (BUEES) para la UEES realizado en Asp .net C#.
-      *Desarrollo de Sistema ERP (SITENIA S.A) para la UEES realizado en Asp .net C#.
-      *Analisis, Diseño e implementación del Modulo de Facturación.
-      *Analisis, Diseño e implementación del Modulos de caja y otros.
-      *Manejo de Módulos como Cuentas por Cobrar, Cuentas por Pagar y Contabilidad.
-      *Desarrollo en tecnología Asp .net para puntos de venta.
-      
+  - role: Lead Developer
+    time: 2015 - Present
+    company: Startup Hubs, San Francisco
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+      error sit voluptatem accusantium doloremque laudantium, totam rem
+      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+      architecto beatae vitae dicta sunt explicabo.
+        - Bullet point
+        - Bullet point
+  - role: Senior Software Engineer
+    time: 2014 - 2015
+    company: Google, London
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem.
 # Registra aquí tus habilidades técnicas, para level utiliza:
 # 20% para Novice
 # 40% para Advanced beginner
-# 60% para Competent
-# 80% para Proficient
-# 100% para Expert
-skills:
-  title: Technical Skills # NO MODIFICAR
+	@@ -123,21 +135,21 @@ skills:
 
   toolset:
     - name: Python
+      level: 20%
+
+    - name: PyTorch
       level: 40%
 
-    - name: JavaScript
-      level: 70%
-
-    - name: C#
-      level: 70%
-
-    - name: .Net Core
+    - name: Tensorflow
       level: 60%
 
-    - name: React Native
-      level: 40%
-     
-    - name: React Js
+    - name: Caffe
+      level: 80%
+
+    - name: Matlab
+      level: 100%
+
+    - name: C/C++
       level: 40%
 
 # NO MODIFICAR
-footer: >
-  BrightCoders for a brighter future!
