@@ -20,7 +20,7 @@ sidebar:
   gitlab:
   bitbucket:
   twitter: '@BrightCoders'
-	@@ -27,14 +27,11 @@ sidebar:
+  
   # Actualiza según los idiomas y nieles que tienes. Agrega o Elimina según sea necesario.
   languages:
     - idiom: English
